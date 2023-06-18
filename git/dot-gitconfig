@@ -1,3 +1,11 @@
 [user]
 	name = Vineet Naik
 	email = naikvin@gmail.com
+[merge]
+        summary = true
+[alias]
+        fo = !sh -c 'git fetch origin'
+	s = !git status
+	lt = !git describe --tags $(git rev-list --tags --max-count=1)
+[core]
+	excludesfile = /Users/vineet/.gitignore_global
