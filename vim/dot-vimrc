@@ -1,0 +1,20 @@
+" Settings copied from here - https://gist.github.com/simonista/8703722
+
+" Turn on syntax highlighting
+syntax on
+
+" Encoding
+set encoding=utf-8
+
+" Whitespace
+set wrap
+set textwidth=79
+
+" Rendering
+set ttyfast
+
+" Show file stats
+set ruler
+
+" Blink cursor on error instead of beeping (grr)
+set visualbell
