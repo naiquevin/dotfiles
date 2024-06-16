@@ -1,0 +1,9 @@
+# Lines between markers 'start(noformat)' and 'end(noformat)' will not
+# be formatted. If you want to customize the markers, you may do so by
+# modifying this parameter.
+placeholder=start\(noformat\).+end\(noformat\)
+
+# required for the above placeholder param to work
+multiline=1
+
+extra-function=/Users/vineet/.pg_format_files/functions.txt
